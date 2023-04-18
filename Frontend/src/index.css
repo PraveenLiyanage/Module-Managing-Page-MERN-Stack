@@ -1,0 +1,226 @@
+/* google font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;800&family=VT323&display=swap');
+
+
+
+/* layout */
+:root {
+  --primary: #0668ca;
+  --error: #e7195a;
+}
+body {
+  background: #92ccf5;
+  margin: 0;
+  font-family: "Poppins";
+}
+header {
+  background: white;
+  padding: 0;
+}
+header .container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 10px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+header a {
+  color: #316ab0;
+  text-decoration: none;
+}
+
+.pages{
+  max-width: 1400px;
+  padding: 20px;
+  margin: 0 auto;
+}
+
+img{
+  position: relative;
+  width: 600px;
+  margin: auto 10px;
+}
+
+header a img{
+  position: relative;
+  width: 250px;
+  margin: auto 70px;
+}
+
+
+
+
+
+
+
+
+/* Homepage */
+.homepage 
+div.module-details {
+  background-color: rgb(123, 123, 123); 
+  border:#fff ;
+  border-radius: 7px;
+  color: white;
+  display:inline-flex;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+/*div.module-details button {
+  background-color: white;
+  color: black;
+  border: 2px solid #c2e0fe;
+  border-radius: 7px;
+}
+
+div.module-details button:hover {background-color: #c2e0fe;}
+
+div.module-details button{
+  padding: 20px;
+  margin: 20px auto;
+  display:grid;
+  grid-template-columns: 3fr 1fr;
+  gap: 10px;
+}  */
+
+.module-details {
+  background: #fff;
+  border-radius: 4px;
+  margin: 20px auto;
+  padding: 20px;
+  position: relative;
+  box-shadow: 2px 2px 5px rgba(255, 255, 255, 0.05);
+}
+
+.module-details h5 {
+  margin: 0 0 10px 0;
+  font-size: 1.6em;
+  color:var(--primary);
+  text-align:start;
+}
+.module-details p {
+  margin: 10px;
+  font-size: 0.9em;
+  color: #555;
+  text-align: start;
+  padding: 30px auto;
+}
+
+.module-details span {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  cursor: pointer;
+  background: #f1f1f1;
+  padding: 6px;
+  border-radius: 50%;
+  color: #333;
+} 
+
+.module-details button{
+  position: absolute;
+  top: 20px;
+  right: 70px;
+  cursor: pointer;
+  background: #f1f1f1;
+  padding: 6px;
+  border-radius: 50%;
+  border: #fff;
+  
+}
+
+
+
+
+
+
+
+
+
+/* Module Form */
+.new-module-form
+label, input {
+  display: block;
+}
+
+.new-module-form {
+  background: #c9e9ff;
+  border-radius: 4px;
+  margin: 20px auto;
+  padding: 20px;
+  position: relative;
+  box-shadow: 2px 2px 5px rgba(0,0,0,0.05);
+}
+
+.new-module-form input {
+  padding: 10px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  width: 100%;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.new-module-form form button {
+  background: var(--primary);
+  border: 0;
+  color: #fff;
+  padding: 10px;
+  font-family: "Poppins";
+  border-radius: 4px;
+  cursor: pointer;
+}
+.new-module-form div.error {
+  padding: 10px;
+  background: #ffefef;
+  border: 1px solid var(--error);
+  color: var(--error);
+  border-radius: 4px;
+  margin: 20px 0;
+}
+.new-module-form input.error {
+  border: 1px solid var(--error);
+}
+
+
+
+
+
+
+
+/* Uploading video */
+.ModuleUpload{
+  position: static;
+  display: block;
+  margin: 20px 0;
+}
+
+.Upload_btn{
+  background: var(--primary);
+  border: 0;
+  color: #fff;
+  padding: 10px;
+  font-family: "Poppins";
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+
+
+
+/* Search Bar */
+
+.searchbar input{
+  padding: 10px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  width: 50%;
+  border: 1px solid #ddd;
+  border-radius: 50px;
+  box-sizing: border-box;
+}
+
+
