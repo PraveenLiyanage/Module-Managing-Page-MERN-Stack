@@ -1,4 +1,4 @@
-<h4>This application page working with full <strong> CRUD operations </strong>. It performs Create, Delete and Update. In this function has search function with search bar and Generate report as a PDF. </h4>
+<h4>This application page working with full of <strong> CRUD operations </strong>. It performs Create, Delete and Update. In this function has search function with search bar and Generate report as a PDF. </h4>
 <br>
 <br>
 <br>
